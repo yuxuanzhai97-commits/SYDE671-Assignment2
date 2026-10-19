@@ -1,0 +1,1790 @@
+{
+  "groups": [
+    {
+      "title": "1.1 Convolutions from scratch",
+      "id": "1_1_Convolutions_from_scratch",
+      "panels": [
+        {
+          "label": "Portrait",
+          "src": "assets/1_1_Convolutions_from_scratch_00.jpg",
+          "kind": "normal",
+          "width": 272,
+          "height": 362
+        },
+        {
+          "label": "9x9 box",
+          "src": "assets/1_1_Convolutions_from_scratch_01.jpg",
+          "kind": "normal",
+          "width": 272,
+          "height": 362
+        },
+        {
+          "label": "Dx",
+          "src": "assets/1_1_Convolutions_from_scratch_02.jpg",
+          "kind": "signed",
+          "width": 272,
+          "height": 362
+        },
+        {
+          "label": "Dy",
+          "src": "assets/1_1_Convolutions_from_scratch_03.jpg",
+          "kind": "signed",
+          "width": 272,
+          "height": 362
+        }
+      ]
+    },
+    {
+      "title": "1.2 Finite differences",
+      "id": "1_2_Finite_differences",
+      "panels": [
+        {
+          "label": "Cameraman",
+          "src": "assets/1_2_Finite_differences_00.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "Dx",
+          "src": "assets/1_2_Finite_differences_01.jpg",
+          "kind": "signed",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "Dy",
+          "src": "assets/1_2_Finite_differences_02.jpg",
+          "kind": "signed",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "Magnitude",
+          "src": "assets/1_2_Finite_differences_03.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "Edges > 0.08",
+          "src": "assets/1_2_Finite_differences_04.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        }
+      ]
+    },
+    {
+      "title": "1.3 Gaussian derivatives (zero boundary excluded from edge display)",
+      "id": "1_3_Gaussian_derivatives__zero_boundary_excluded_from_edge_display",
+      "panels": [
+        {
+          "label": "Gaussian-smoothed",
+          "src": "assets/1_3_Gaussian_derivatives__zero_boundary_excluded_from_edge_display_00.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "DoG x filter",
+          "src": "assets/1_3_Gaussian_derivatives__zero_boundary_excluded_from_edge_display_01.jpg",
+          "kind": "signed",
+          "width": 12,
+          "height": 11
+        },
+        {
+          "label": "DoG y filter",
+          "src": "assets/1_3_Gaussian_derivatives__zero_boundary_excluded_from_edge_display_02.jpg",
+          "kind": "signed",
+          "width": 11,
+          "height": 12
+        },
+        {
+          "label": "DoG x",
+          "src": "assets/1_3_Gaussian_derivatives__zero_boundary_excluded_from_edge_display_03.jpg",
+          "kind": "signed",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "DoG y",
+          "src": "assets/1_3_Gaussian_derivatives__zero_boundary_excluded_from_edge_display_04.jpg",
+          "kind": "signed",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "Smoothed magnitude",
+          "src": "assets/1_3_Gaussian_derivatives__zero_boundary_excluded_from_edge_display_05.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "Same threshold 0.08",
+          "src": "assets/1_3_Gaussian_derivatives__zero_boundary_excluded_from_edge_display_06.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "Orientation: hue; strength: value",
+          "src": "assets/1_3_Gaussian_derivatives__zero_boundary_excluded_from_edge_display_07.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        }
+      ]
+    },
+    {
+      "title": "2.1 Unsharp masking: Taj Mahal",
+      "id": "2_1_Unsharp_masking__Taj_Mahal",
+      "panels": [
+        {
+          "label": "Original",
+          "src": "assets/2_1_Unsharp_masking__Taj_Mahal_00.jpg",
+          "kind": "normal",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "label": "Blurred",
+          "src": "assets/2_1_Unsharp_masking__Taj_Mahal_01.jpg",
+          "kind": "normal",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "label": "High frequencies (signed)",
+          "src": "assets/2_1_Unsharp_masking__Taj_Mahal_02.jpg",
+          "kind": "signed",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "label": "Single-filter sharpening, alpha=0.5",
+          "src": "assets/2_1_Unsharp_masking__Taj_Mahal_03.jpg",
+          "kind": "normal",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "label": "Single-filter sharpening, alpha=1.0",
+          "src": "assets/2_1_Unsharp_masking__Taj_Mahal_04.jpg",
+          "kind": "normal",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "label": "Single-filter sharpening, alpha=2.0",
+          "src": "assets/2_1_Unsharp_masking__Taj_Mahal_05.jpg",
+          "kind": "normal",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "title": "2.1 Unsharp masking: Another image",
+      "id": "2_1_Unsharp_masking__favorite_image_sharpening_jpg",
+      "panels": [
+        {
+          "label": "Original",
+          "src": "assets/2_1_Unsharp_masking__favorite_image_sharpening_jpg_00.jpg",
+          "kind": "normal",
+          "width": 1206,
+          "height": 682
+        },
+        {
+          "label": "Blurred",
+          "src": "assets/2_1_Unsharp_masking__favorite_image_sharpening_jpg_01.jpg",
+          "kind": "normal",
+          "width": 1206,
+          "height": 682
+        },
+        {
+          "label": "High frequencies (signed)",
+          "src": "assets/2_1_Unsharp_masking__favorite_image_sharpening_jpg_02.jpg",
+          "kind": "signed",
+          "width": 1206,
+          "height": 682
+        },
+        {
+          "label": "Single-filter sharpening, alpha=0.5",
+          "src": "assets/2_1_Unsharp_masking__favorite_image_sharpening_jpg_03.jpg",
+          "kind": "normal",
+          "width": 1206,
+          "height": 682
+        },
+        {
+          "label": "Single-filter sharpening, alpha=1.0",
+          "src": "assets/2_1_Unsharp_masking__favorite_image_sharpening_jpg_04.jpg",
+          "kind": "normal",
+          "width": 1206,
+          "height": 682
+        },
+        {
+          "label": "Single-filter sharpening, alpha=2.0",
+          "src": "assets/2_1_Unsharp_masking__favorite_image_sharpening_jpg_05.jpg",
+          "kind": "normal",
+          "width": 1206,
+          "height": 682
+        }
+      ]
+    },
+    {
+      "title": "2.1 Blur then sharpen: sharp image for evaluation.jpg",
+      "id": "2_1_Blur_then_sharpen__sharp_image_for_evaluation_jpg",
+      "panels": [
+        {
+          "label": "Sharp reference",
+          "src": "assets/2_1_Blur_then_sharpen__sharp_image_for_evaluation_jpg_00.jpg",
+          "kind": "normal",
+          "width": 1206,
+          "height": 819
+        },
+        {
+          "label": "Artificially blurred",
+          "src": "assets/2_1_Blur_then_sharpen__sharp_image_for_evaluation_jpg_01.jpg",
+          "kind": "normal",
+          "width": 1206,
+          "height": 819
+        },
+        {
+          "label": "Resharpened",
+          "src": "assets/2_1_Blur_then_sharpen__sharp_image_for_evaluation_jpg_02.jpg",
+          "kind": "normal",
+          "width": 1206,
+          "height": 819
+        },
+        {
+          "label": "Recovery error (unclipped)",
+          "src": "assets/2_1_Blur_then_sharpen__sharp_image_for_evaluation_jpg_03.jpg",
+          "kind": "signed",
+          "width": 1206,
+          "height": 819
+        }
+      ]
+    },
+    {
+      "title": "2.2 Hybrid: Derek + Nutmeg",
+      "id": "2_2_Hybrid__Derek___Nutmeg",
+      "panels": [
+        {
+          "label": "Original low source",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_00.jpg",
+          "kind": "normal",
+          "width": 732,
+          "height": 1024
+        },
+        {
+          "label": "Original high source",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_01.jpg",
+          "kind": "normal",
+          "width": 1408,
+          "height": 1056
+        },
+        {
+          "label": "Hybrid",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_02.jpg",
+          "kind": "normal",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Aligned low source",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_03.jpg",
+          "kind": "normal",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Aligned high source",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_04.jpg",
+          "kind": "normal",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Low-pass sigma=6",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_05.jpg",
+          "kind": "normal",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "High-pass sigma=4",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_06.jpg",
+          "kind": "signed",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Input low FFT",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_07.jpg",
+          "kind": "spectrum",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Input high FFT",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_08.jpg",
+          "kind": "spectrum",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Filtered low FFT",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_09.jpg",
+          "kind": "spectrum",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Filtered high FFT",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_10.jpg",
+          "kind": "spectrum",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Hybrid FFT",
+          "src": "assets/2_2_Hybrid__Derek___Nutmeg_11.jpg",
+          "kind": "spectrum",
+          "width": 454,
+          "height": 475
+        }
+      ]
+    },
+    {
+      "title": "2.2 Mandatory color experiment: Derek + Nutmeg",
+      "id": "2_2_Mandatory_color_experiment__Derek___Nutmeg",
+      "panels": [
+        {
+          "label": "Grayscale",
+          "src": "assets/2_2_Mandatory_color_experiment__Derek___Nutmeg_00.jpg",
+          "kind": "normal",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Color low only",
+          "src": "assets/2_2_Mandatory_color_experiment__Derek___Nutmeg_01.jpg",
+          "kind": "normal",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Color high only",
+          "src": "assets/2_2_Mandatory_color_experiment__Derek___Nutmeg_02.jpg",
+          "kind": "normal",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Both color",
+          "src": "assets/2_2_Mandatory_color_experiment__Derek___Nutmeg_03.jpg",
+          "kind": "normal",
+          "width": 454,
+          "height": 475
+        },
+        {
+          "label": "Distant view (downsampled)",
+          "src": "assets/2_2_Mandatory_color_experiment__Derek___Nutmeg_04.jpg",
+          "kind": "normal",
+          "width": 57,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "title": "2.2 Hybrid: Ronova + Furina",
+      "id": "2_2_Hybrid__Hybrid_image_2___hybrid_image",
+      "panels": [
+        {
+          "label": "Original low source",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_00.jpg",
+          "kind": "normal",
+          "width": 940,
+          "height": 1121
+        },
+        {
+          "label": "Original high source",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_01.jpg",
+          "kind": "normal",
+          "width": 1042,
+          "height": 1043
+        },
+        {
+          "label": "Hybrid",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_02.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Aligned low source",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_03.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Aligned high source",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_04.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Low-pass sigma=6",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_05.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "High-pass sigma=4",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_06.jpg",
+          "kind": "signed",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Input low FFT",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_07.jpg",
+          "kind": "spectrum",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Input high FFT",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_08.jpg",
+          "kind": "spectrum",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Filtered low FFT",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_09.jpg",
+          "kind": "spectrum",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Filtered high FFT",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_10.jpg",
+          "kind": "spectrum",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Hybrid FFT",
+          "src": "assets/2_2_Hybrid__Hybrid_image_2___hybrid_image_11.jpg",
+          "kind": "spectrum",
+          "width": 559,
+          "height": 584
+        }
+      ]
+    },
+    {
+      "title": "2.2 Mandatory color experiment: Ronova + Furina",
+      "id": "2_2_Mandatory_color_experiment__Hybrid_image_2___hybrid_image",
+      "panels": [
+        {
+          "label": "Grayscale",
+          "src": "assets/2_2_Mandatory_color_experiment__Hybrid_image_2___hybrid_image_00.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Color low only",
+          "src": "assets/2_2_Mandatory_color_experiment__Hybrid_image_2___hybrid_image_01.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Color high only",
+          "src": "assets/2_2_Mandatory_color_experiment__Hybrid_image_2___hybrid_image_02.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Both color",
+          "src": "assets/2_2_Mandatory_color_experiment__Hybrid_image_2___hybrid_image_03.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Distant view (downsampled)",
+          "src": "assets/2_2_Mandatory_color_experiment__Hybrid_image_2___hybrid_image_04.jpg",
+          "kind": "normal",
+          "width": 70,
+          "height": 73
+        }
+      ]
+    },
+    {
+      "title": "2.2 Hybrid: Cat + alpaca",
+      "id": "2_2_Hybrid__Cat___alpaca",
+      "panels": [
+        {
+          "label": "Original low source",
+          "src": "assets/2_2_Hybrid__Cat___alpaca_00.jpg",
+          "kind": "normal",
+          "width": 1086,
+          "height": 724
+        },
+        {
+          "label": "Original high source",
+          "src": "assets/2_2_Hybrid__Cat___alpaca_01.jpg",
+          "kind": "normal",
+          "width": 1086,
+          "height": 724
+        },
+        {
+          "label": "Hybrid",
+          "src": "assets/2_2_Hybrid__Cat___alpaca_02.jpg",
+          "kind": "normal",
+          "width": 288,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "title": "2.2 Mandatory color experiment: Cat + alpaca",
+      "id": "2_2_Mandatory_color_experiment__Cat___alpaca",
+      "panels": [
+        {
+          "label": "Grayscale",
+          "src": "assets/2_2_Mandatory_color_experiment__Cat___alpaca_00.jpg",
+          "kind": "normal",
+          "width": 288,
+          "height": 300
+        },
+        {
+          "label": "Color low only",
+          "src": "assets/2_2_Mandatory_color_experiment__Cat___alpaca_01.jpg",
+          "kind": "normal",
+          "width": 288,
+          "height": 300
+        },
+        {
+          "label": "Color high only",
+          "src": "assets/2_2_Mandatory_color_experiment__Cat___alpaca_02.jpg",
+          "kind": "normal",
+          "width": 288,
+          "height": 300
+        },
+        {
+          "label": "Both color",
+          "src": "assets/2_2_Mandatory_color_experiment__Cat___alpaca_03.jpg",
+          "kind": "normal",
+          "width": 288,
+          "height": 300
+        },
+        {
+          "label": "Distant view (downsampled)",
+          "src": "assets/2_2_Mandatory_color_experiment__Cat___alpaca_04.jpg",
+          "kind": "normal",
+          "width": 72,
+          "height": 75
+        }
+      ]
+    },
+    {
+      "title": "2.4 Color blending: Oraple",
+      "id": "2_4_Color_blending__Oraple",
+      "panels": [
+        {
+          "label": "First",
+          "src": "assets/2_4_Color_blending__Oraple_00.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Second",
+          "src": "assets/2_4_Color_blending__Oraple_01.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Mask",
+          "src": "assets/2_4_Color_blending__Oraple_02.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Direct compositing",
+          "src": "assets/2_4_Color_blending__Oraple_03.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Multiresolution blend",
+          "src": "assets/2_4_Color_blending__Oraple_04.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Grayscale comparison",
+          "src": "assets/2_4_Color_blending__Oraple_05.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        }
+      ]
+    },
+    {
+      "title": "2.3 Oraple: First Gaussian",
+      "id": "2_3_Oraple__First_Gaussian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Oraple__First_Gaussian_00.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Oraple__First_Gaussian_01.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Oraple__First_Gaussian_02.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Oraple__First_Gaussian_03.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Oraple__First_Gaussian_04.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 5",
+          "src": "assets/2_3_Oraple__First_Gaussian_05.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        }
+      ]
+    },
+    {
+      "title": "2.3 Oraple: Second Gaussian",
+      "id": "2_3_Oraple__Second_Gaussian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Oraple__Second_Gaussian_00.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Oraple__Second_Gaussian_01.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Oraple__Second_Gaussian_02.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Oraple__Second_Gaussian_03.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Oraple__Second_Gaussian_04.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 5",
+          "src": "assets/2_3_Oraple__Second_Gaussian_05.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        }
+      ]
+    },
+    {
+      "title": "2.3 Oraple: Mask Gaussian",
+      "id": "2_3_Oraple__Mask_Gaussian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Oraple__Mask_Gaussian_00.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Oraple__Mask_Gaussian_01.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Oraple__Mask_Gaussian_02.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Oraple__Mask_Gaussian_03.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Oraple__Mask_Gaussian_04.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 5",
+          "src": "assets/2_3_Oraple__Mask_Gaussian_05.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        }
+      ]
+    },
+    {
+      "title": "2.3 Oraple: First Laplacian",
+      "id": "2_3_Oraple__First_Laplacian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Oraple__First_Laplacian_00.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Oraple__First_Laplacian_01.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Oraple__First_Laplacian_02.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Oraple__First_Laplacian_03.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Oraple__First_Laplacian_04.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 5 residual",
+          "src": "assets/2_3_Oraple__First_Laplacian_05.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        }
+      ]
+    },
+    {
+      "title": "2.3 Oraple: Second Laplacian",
+      "id": "2_3_Oraple__Second_Laplacian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Oraple__Second_Laplacian_00.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Oraple__Second_Laplacian_01.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Oraple__Second_Laplacian_02.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Oraple__Second_Laplacian_03.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Oraple__Second_Laplacian_04.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Level 5 residual",
+          "src": "assets/2_3_Oraple__Second_Laplacian_05.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        }
+      ]
+    },
+    {
+      "title": "2.3/2.4 Figure 3.42 (a)-(l) / Figure 10: Oraple",
+      "id": "2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple",
+      "panels": [
+        {
+          "label": "A masked, level 0",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_00.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "B masked, level 0",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_01.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Combined, level 0",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_02.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "A masked, level 2",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_03.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "B masked, level 2",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_04.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Combined, level 2",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_05.jpg",
+          "kind": "signed",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "A masked, level 5",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_06.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "B masked, level 5",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_07.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Combined, level 5",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_08.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Sum masked A",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_09.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Sum masked B",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_10.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        },
+        {
+          "label": "Reconstruction",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Oraple_11.jpg",
+          "kind": "normal",
+          "width": 443,
+          "height": 318
+        }
+      ]
+    },
+    {
+      "title": "2.4 Color blending: Ronova + Furina (wavy seam)",
+      "id": "2_4_Color_blending__Hybrid_image___hybrid_image_2__wavy_seam",
+      "panels": [
+        {
+          "label": "First",
+          "src": "assets/2_4_Color_blending__Hybrid_image___hybrid_image_2__wavy_seam_00.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Second",
+          "src": "assets/2_4_Color_blending__Hybrid_image___hybrid_image_2__wavy_seam_01.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Mask",
+          "src": "assets/2_4_Color_blending__Hybrid_image___hybrid_image_2__wavy_seam_02.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Direct compositing",
+          "src": "assets/2_4_Color_blending__Hybrid_image___hybrid_image_2__wavy_seam_03.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Multiresolution blend",
+          "src": "assets/2_4_Color_blending__Hybrid_image___hybrid_image_2__wavy_seam_04.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Grayscale comparison",
+          "src": "assets/2_4_Color_blending__Hybrid_image___hybrid_image_2__wavy_seam_05.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        }
+      ]
+    },
+    {
+      "title": "2.3 Ronova + Furina (wavy seam): First Gaussian",
+      "id": "2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Gaussian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Gaussian_00.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Gaussian_01.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Gaussian_02.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Gaussian_03.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Gaussian_04.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 5",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Gaussian_05.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        }
+      ]
+    },
+    {
+      "title": "2.3 Ronova + Furina (wavy seam): Second Gaussian",
+      "id": "2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Gaussian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Gaussian_00.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Gaussian_01.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Gaussian_02.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Gaussian_03.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Gaussian_04.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 5",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Gaussian_05.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        }
+      ]
+    },
+    {
+      "title": "2.3 Ronova + Furina (wavy seam): Mask Gaussian",
+      "id": "2_3_Hybrid_image___hybrid_image_2__wavy_seam___Mask_Gaussian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Mask_Gaussian_00.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Mask_Gaussian_01.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Mask_Gaussian_02.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Mask_Gaussian_03.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Mask_Gaussian_04.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 5",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Mask_Gaussian_05.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        }
+      ]
+    },
+    {
+      "title": "2.3 Ronova + Furina (wavy seam): First Laplacian",
+      "id": "2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Laplacian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Laplacian_00.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Laplacian_01.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Laplacian_02.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Laplacian_03.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Laplacian_04.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 5 residual",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___First_Laplacian_05.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        }
+      ]
+    },
+    {
+      "title": "2.3 Ronova + Furina (wavy seam): Second Laplacian",
+      "id": "2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Laplacian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Laplacian_00.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Laplacian_01.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Laplacian_02.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Laplacian_03.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Laplacian_04.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Level 5 residual",
+          "src": "assets/2_3_Hybrid_image___hybrid_image_2__wavy_seam___Second_Laplacian_05.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        }
+      ]
+    },
+    {
+      "title": "2.3/2.4 Figure 3.42 (a)-(l) / Figure 10: Ronova + Furina (wavy seam)",
+      "id": "2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam",
+      "panels": [
+        {
+          "label": "A masked, level 0",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_00.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "B masked, level 0",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_01.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Combined, level 0",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_02.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "A masked, level 2",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_03.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "B masked, level 2",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_04.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Combined, level 2",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_05.jpg",
+          "kind": "signed",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "A masked, level 5",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_06.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "B masked, level 5",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_07.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Combined, level 5",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_08.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Sum masked A",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_09.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Sum masked B",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_10.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        },
+        {
+          "label": "Reconstruction",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Hybrid_image___hybrid_image_2__wavy_seam_11.jpg",
+          "kind": "normal",
+          "width": 1026,
+          "height": 1043
+        }
+      ]
+    },
+    {
+      "title": "2.4 Color blending: Sparkle + Sparxie (irregular face region)",
+      "id": "2_4_Color_blending__Blend_image___blend_image_2__irregular_face_region",
+      "panels": [
+        {
+          "label": "First",
+          "src": "assets/2_4_Color_blending__Blend_image___blend_image_2__irregular_face_region_00.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Second",
+          "src": "assets/2_4_Color_blending__Blend_image___blend_image_2__irregular_face_region_01.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Mask",
+          "src": "assets/2_4_Color_blending__Blend_image___blend_image_2__irregular_face_region_02.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Direct compositing",
+          "src": "assets/2_4_Color_blending__Blend_image___blend_image_2__irregular_face_region_03.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Multiresolution blend",
+          "src": "assets/2_4_Color_blending__Blend_image___blend_image_2__irregular_face_region_04.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Grayscale comparison",
+          "src": "assets/2_4_Color_blending__Blend_image___blend_image_2__irregular_face_region_05.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        }
+      ]
+    },
+    {
+      "title": "2.3 Sparkle + Sparxie (irregular face region): First Gaussian",
+      "id": "2_3_Blend_image___blend_image_2__irregular_face_region___First_Gaussian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Gaussian_00.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Gaussian_01.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Gaussian_02.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Gaussian_03.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Gaussian_04.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 5",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Gaussian_05.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        }
+      ]
+    },
+    {
+      "title": "2.3 Sparkle + Sparxie (irregular face region): Second Gaussian",
+      "id": "2_3_Blend_image___blend_image_2__irregular_face_region___Second_Gaussian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Gaussian_00.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Gaussian_01.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Gaussian_02.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Gaussian_03.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Gaussian_04.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 5",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Gaussian_05.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        }
+      ]
+    },
+    {
+      "title": "2.3 Sparkle + Sparxie (irregular face region): Mask Gaussian",
+      "id": "2_3_Blend_image___blend_image_2__irregular_face_region___Mask_Gaussian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Mask_Gaussian_00.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Mask_Gaussian_01.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Mask_Gaussian_02.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Mask_Gaussian_03.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Mask_Gaussian_04.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 5",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Mask_Gaussian_05.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        }
+      ]
+    },
+    {
+      "title": "2.3 Sparkle + Sparxie (irregular face region): First Laplacian",
+      "id": "2_3_Blend_image___blend_image_2__irregular_face_region___First_Laplacian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Laplacian_00.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Laplacian_01.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Laplacian_02.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Laplacian_03.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Laplacian_04.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 5 residual",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___First_Laplacian_05.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        }
+      ]
+    },
+    {
+      "title": "2.3 Sparkle + Sparxie (irregular face region): Second Laplacian",
+      "id": "2_3_Blend_image___blend_image_2__irregular_face_region___Second_Laplacian",
+      "panels": [
+        {
+          "label": "Level 0",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Laplacian_00.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 1",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Laplacian_01.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 2",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Laplacian_02.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 3",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Laplacian_03.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 4",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Laplacian_04.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Level 5 residual",
+          "src": "assets/2_3_Blend_image___blend_image_2__irregular_face_region___Second_Laplacian_05.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        }
+      ]
+    },
+    {
+      "title": "2.3/2.4 Figure 3.42 (a)-(l) / Figure 10: Sparkle + Sparxie (irregular face region)",
+      "id": "2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region",
+      "panels": [
+        {
+          "label": "A masked, level 0",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_00.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "B masked, level 0",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_01.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Combined, level 0",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_02.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "A masked, level 2",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_03.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "B masked, level 2",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_04.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Combined, level 2",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_05.jpg",
+          "kind": "signed",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "A masked, level 5",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_06.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "B masked, level 5",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_07.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Combined, level 5",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_08.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Sum masked A",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_09.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Sum masked B",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_10.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        },
+        {
+          "label": "Reconstruction",
+          "src": "assets/2_3_2_4_Figure_3_42__a___l____Figure_10__Blend_image___blend_image_2__irregular_face_region_11.jpg",
+          "kind": "normal",
+          "width": 844,
+          "height": 1074
+        }
+      ]
+    },
+    {
+      "title": "1.2 Threshold comparison",
+      "id": "1_2_Threshold_comparison",
+      "panels": [
+        {
+          "label": "Threshold 0.04",
+          "src": "assets/1_2_Threshold_comparison_00.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "Threshold 0.08",
+          "src": "assets/1_2_Threshold_comparison_01.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        },
+        {
+          "label": "Threshold 0.12",
+          "src": "assets/1_2_Threshold_comparison_02.jpg",
+          "kind": "normal",
+          "width": 648,
+          "height": 648
+        }
+      ]
+    },
+    {
+      "title": "2.2 Cutoff comparison",
+      "id": "2_2_Cutoff_comparison",
+      "panels": [
+        {
+          "label": "Sigma low/high 3/2",
+          "src": "assets/2_2_Cutoff_comparison_00.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Sigma low/high 6/4",
+          "src": "assets/2_2_Cutoff_comparison_01.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        },
+        {
+          "label": "Sigma low/high 10/6",
+          "src": "assets/2_2_Cutoff_comparison_02.jpg",
+          "kind": "normal",
+          "width": 559,
+          "height": 584
+        }
+      ]
+    }
+  ],
+  "log": "1.1 Portrait working dimensions: (1448, 1086) -> (362, 272); all three methods use identical pixels.\n1.1 9x9 box, four loops: 2.390999 seconds\n1.1 9x9 box, two loops: 0.180478 seconds\n1.1 9x9 box, SciPy: 0.009743 seconds\n1.1 Dx, four loops: 0.075814 seconds\n1.1 Dx, two loops: 0.164954 seconds\n1.1 Dx, SciPy: 0.000802 seconds\n1.1 Dy, four loops: 0.081828 seconds\n1.1 Dy, two loops: 0.166402 seconds\n1.1 Dy, SciPy: 0.001018 seconds\n1.1 All methods agree; zero extension darkens the box-filter boundary. The two-loop method vectorizes the kernel sum; SciPy runs compiled loops.\nWebsite figures: 1.1 Convolutions from scratch\nWebsite figures: 1.2 Finite differences\nWebsite figures: 1.3 Gaussian derivatives (zero boundary excluded from edge display)\n1.3 Two-stage and single DoG agree (max error 9.8e-16). Gaussian smoothing suppresses noise but also weak/fine edges. Increase the threshold setting to suppress noise; decrease it to retain weak edges. Orientation uses bisection of tangent, quadrant correction, and cyclic HSV hue.\nWebsite figures: 2.1 Unsharp masking: Taj Mahal\n2.1 Taj Mahal: display sharpening amounts .5, 1, and 2; clipping is display-only.\nWebsite figures: 2.1 Unsharp masking: Another image\n2.1 Another image: display sharpening amounts .5, 1, and 2; clipping is display-only.\nWebsite figures: 2.1 Blur then sharpen: sharp image for evaluation.jpg\n2.1 sharp image for evaluation.jpg: blur MSE=0.000990915; resharpened MSE=0.000771091. Sharpening boosts surviving detail; it cannot recover frequencies lost to blur. Large alpha can cause halos and out-of-range intensities; clipping is display-only.\nWebsite figures: 2.2 Hybrid: Derek + Nutmeg\nWebsite figures: 2.2 Mandatory color experiment: Derek + Nutmeg\n2.2 Derek + Nutmeg: sigma low/high=6/4 pixels. Gaussian half-amplitude frequencies are approximately 0.0312/0.0468 cycles/pixel. Inspect near/far perception and color variants; low-frequency color preserves broad object color, high-frequency color may introduce colored contours.\nWebsite figures: 2.2 Hybrid: Ronova + Furina\nWebsite figures: 2.2 Mandatory color experiment: Ronova + Furina\n2.2 Ronova + Furina: sigma low/high=6/4 pixels. Gaussian half-amplitude frequencies are approximately 0.0312/0.0468 cycles/pixel. Inspect near/far perception and color variants; low-frequency color preserves broad object color, high-frequency color may introduce colored contours.\nWebsite figures: 2.2 Hybrid: Cat + alpaca\nWebsite figures: 2.2 Mandatory color experiment: Cat + alpaca\n2.2 Cat + alpaca: sigma low/high=6/4 pixels. Gaussian half-amplitude frequencies are approximately 0.0312/0.0468 cycles/pixel. Inspect near/far perception and color variants; low-frequency color preserves broad object color, high-frequency color may introduce colored contours.\nWebsite figures: 2.4 Color blending: Oraple\nWebsite figures: 2.3 Oraple: First Gaussian\nWebsite figures: 2.3 Oraple: Second Gaussian\nWebsite figures: 2.3 Oraple: Mask Gaussian\nWebsite figures: 2.3 Oraple: First Laplacian\nWebsite figures: 2.3 Oraple: Second Laplacian\nWebsite figures: 2.3/2.4 Figure 3.42 (a)-(l) / Figure 10: Oraple\n2.4 Oraple: full-size stacks, 6 levels; final residual retained. Fine bands use a narrow transition, coarse bands a broad transition. Color is processed channel-by-channel with a shared mask to avoid color seams.\nWebsite figures: 2.4 Color blending: Ronova + Furina (wavy seam)\nWebsite figures: 2.3 Ronova + Furina (wavy seam): First Gaussian\nWebsite figures: 2.3 Ronova + Furina (wavy seam): Second Gaussian\nWebsite figures: 2.3 Ronova + Furina (wavy seam): Mask Gaussian\nWebsite figures: 2.3 Ronova + Furina (wavy seam): First Laplacian\nWebsite figures: 2.3 Ronova + Furina (wavy seam): Second Laplacian\nWebsite figures: 2.3/2.4 Figure 3.42 (a)-(l) / Figure 10: Ronova + Furina (wavy seam)\n2.4 Ronova + Furina (wavy seam): full-size stacks, 6 levels; final residual retained. Fine bands use a narrow transition, coarse bands a broad transition. Color is processed channel-by-channel with a shared mask to avoid color seams.\nWebsite figures: 2.4 Color blending: Sparkle + Sparxie (irregular face region)\nWebsite figures: 2.3 Sparkle + Sparxie (irregular face region): First Gaussian\nWebsite figures: 2.3 Sparkle + Sparxie (irregular face region): Second Gaussian\nWebsite figures: 2.3 Sparkle + Sparxie (irregular face region): Mask Gaussian\nWebsite figures: 2.3 Sparkle + Sparxie (irregular face region): First Laplacian\nWebsite figures: 2.3 Sparkle + Sparxie (irregular face region): Second Laplacian\nWebsite figures: 2.3/2.4 Figure 3.42 (a)-(l) / Figure 10: Sparkle + Sparxie (irregular face region)\n2.4 Sparkle + Sparxie (irregular face region): full-size stacks, 6 levels; final residual retained. Fine bands use a narrow transition, coarse bands a broad transition. Color is processed channel-by-channel with a shared mask to avoid color seams.\nResults saved in result.\nWebsite figures: 1.2 Threshold comparison\nWebsite figures: 2.2 Cutoff comparison\n"
+}

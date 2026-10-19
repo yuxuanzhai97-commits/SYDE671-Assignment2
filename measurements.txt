@@ -1,0 +1,57 @@
+1.1 Portrait working dimensions: (1448, 1086) -> (362, 272); all three methods use identical pixels.
+1.1 9x9 box, four loops: 2.390999 seconds
+1.1 9x9 box, two loops: 0.180478 seconds
+1.1 9x9 box, SciPy: 0.009743 seconds
+1.1 Dx, four loops: 0.075814 seconds
+1.1 Dx, two loops: 0.164954 seconds
+1.1 Dx, SciPy: 0.000802 seconds
+1.1 Dy, four loops: 0.081828 seconds
+1.1 Dy, two loops: 0.166402 seconds
+1.1 Dy, SciPy: 0.001018 seconds
+1.1 All methods agree; zero extension darkens the box-filter boundary. The two-loop method vectorizes the kernel sum; SciPy runs compiled loops.
+Website figures: 1.1 Convolutions from scratch
+Website figures: 1.2 Finite differences
+Website figures: 1.3 Gaussian derivatives (zero boundary excluded from edge display)
+1.3 Two-stage and single DoG agree (max error 9.8e-16). Gaussian smoothing suppresses noise but also weak/fine edges. Increase the threshold setting to suppress noise; decrease it to retain weak edges. Orientation uses bisection of tangent, quadrant correction, and cyclic HSV hue.
+Website figures: 2.1 Unsharp masking: Taj Mahal
+2.1 Taj Mahal: display sharpening amounts .5, 1, and 2; clipping is display-only.
+Website figures: 2.1 Unsharp masking: Another image
+2.1 Another image: display sharpening amounts .5, 1, and 2; clipping is display-only.
+Website figures: 2.1 Blur then sharpen: sharp image for evaluation.jpg
+2.1 sharp image for evaluation.jpg: blur MSE=0.000990915; resharpened MSE=0.000771091. Sharpening boosts surviving detail; it cannot recover frequencies lost to blur. Large alpha can cause halos and out-of-range intensities; clipping is display-only.
+Website figures: 2.2 Hybrid: Derek + Nutmeg
+Website figures: 2.2 Mandatory color experiment: Derek + Nutmeg
+2.2 Derek + Nutmeg: sigma low/high=6/4 pixels. Gaussian half-amplitude frequencies are approximately 0.0312/0.0468 cycles/pixel. Inspect near/far perception and color variants; low-frequency color preserves broad object color, high-frequency color may introduce colored contours.
+Website figures: 2.2 Hybrid: Ronova + Furina
+Website figures: 2.2 Mandatory color experiment: Ronova + Furina
+2.2 Ronova + Furina: sigma low/high=6/4 pixels. Gaussian half-amplitude frequencies are approximately 0.0312/0.0468 cycles/pixel. Inspect near/far perception and color variants; low-frequency color preserves broad object color, high-frequency color may introduce colored contours.
+Website figures: 2.2 Hybrid: Cat + alpaca
+Website figures: 2.2 Mandatory color experiment: Cat + alpaca
+2.2 Cat + alpaca: sigma low/high=6/4 pixels. Gaussian half-amplitude frequencies are approximately 0.0312/0.0468 cycles/pixel. Inspect near/far perception and color variants; low-frequency color preserves broad object color, high-frequency color may introduce colored contours.
+Website figures: 2.4 Color blending: Oraple
+Website figures: 2.3 Oraple: First Gaussian
+Website figures: 2.3 Oraple: Second Gaussian
+Website figures: 2.3 Oraple: Mask Gaussian
+Website figures: 2.3 Oraple: First Laplacian
+Website figures: 2.3 Oraple: Second Laplacian
+Website figures: 2.3/2.4 Figure 3.42 (a)-(l) / Figure 10: Oraple
+2.4 Oraple: full-size stacks, 6 levels; final residual retained. Fine bands use a narrow transition, coarse bands a broad transition. Color is processed channel-by-channel with a shared mask to avoid color seams.
+Website figures: 2.4 Color blending: Ronova + Furina (wavy seam)
+Website figures: 2.3 Ronova + Furina (wavy seam): First Gaussian
+Website figures: 2.3 Ronova + Furina (wavy seam): Second Gaussian
+Website figures: 2.3 Ronova + Furina (wavy seam): Mask Gaussian
+Website figures: 2.3 Ronova + Furina (wavy seam): First Laplacian
+Website figures: 2.3 Ronova + Furina (wavy seam): Second Laplacian
+Website figures: 2.3/2.4 Figure 3.42 (a)-(l) / Figure 10: Ronova + Furina (wavy seam)
+2.4 Ronova + Furina (wavy seam): full-size stacks, 6 levels; final residual retained. Fine bands use a narrow transition, coarse bands a broad transition. Color is processed channel-by-channel with a shared mask to avoid color seams.
+Website figures: 2.4 Color blending: Sparkle + Sparxie (irregular face region)
+Website figures: 2.3 Sparkle + Sparxie (irregular face region): First Gaussian
+Website figures: 2.3 Sparkle + Sparxie (irregular face region): Second Gaussian
+Website figures: 2.3 Sparkle + Sparxie (irregular face region): Mask Gaussian
+Website figures: 2.3 Sparkle + Sparxie (irregular face region): First Laplacian
+Website figures: 2.3 Sparkle + Sparxie (irregular face region): Second Laplacian
+Website figures: 2.3/2.4 Figure 3.42 (a)-(l) / Figure 10: Sparkle + Sparxie (irregular face region)
+2.4 Sparkle + Sparxie (irregular face region): full-size stacks, 6 levels; final residual retained. Fine bands use a narrow transition, coarse bands a broad transition. Color is processed channel-by-channel with a shared mask to avoid color seams.
+Results saved in result.
+Website figures: 1.2 Threshold comparison
+Website figures: 2.2 Cutoff comparison
